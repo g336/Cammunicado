@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.H1{ 
+
+    color: rgb(224, 27, 1);
+    font-style: italic;
+    font-size: large;
+}
+
+.para{
+    color: crimson;
+    font-family: 'Tillana', cursive;
+}
+
+.insta{
+    font-size: 40px;
+    color: #dc143c;
+    display: none;
+
+   
+}
+.discord{
+    font-size: 40px;
+    color: #dc143c;
+    display: none;
+ 
+    }
+    .side-bar:hover .discord{
+        display:block;
+        }
+
+        .side-bar:hover .insta{
+            display: block;
+            }
+
+    .side-bar{
+        width: 90px;
+        height: 100px;
+        background: #3b0055;
+        position: fixed;
+        top: 0%;
+        right: -80px;
+        transition: all 1s;
+        display: grid;
+        place-items: center;
+        padding: 5px;
+        
+    }
+    
+    
+    .side-bar:hover {
+       right:-10px;
+       height: auto;
+       
+
+    }
+
+    .image{
+        
+    }
